@@ -1,0 +1,17 @@
+{
+  "default_days": 4,
+  "apps": {
+    "7d4ac3ff3676": {
+      "title": "GO meat-free MY",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-09-26T16:00:00Z"
+    },
+    "8b3bd9c30fc1": {
+      "title": "GO meat-free SG",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-09-26T16:00:00Z"
+    }
+  }
+}
