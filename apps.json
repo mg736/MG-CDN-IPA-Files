@@ -19,6 +19,13 @@
       "build": "834",
       "expires": "2026-09-27T16:00:00Z",
       "_note": "CloudFront copy is the 25 Aug build; set ipa_url to a GitHub release asset to serve the 23 Sep build"
+    },
+    "boddii": {
+      "title": "BODDII",
+      "short": "1.1",
+      "build": "1.2",
+      "expires": "2026-09-27T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-boddii-1-2/publish.ipa"
     }
   }
 }
