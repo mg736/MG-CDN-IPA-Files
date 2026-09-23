@@ -79,7 +79,7 @@ MANIFEST = """<?xml version="1.0" encoding="UTF-8"?>
       <array>
         <dict>
           <key>kind</key><string>software-package</string>
-          <key>url</key><string>{cf}/{appid}.ipa</string>
+          <key>url</key><string>{ipa_url}</string>
         </dict>
       </array>
       <key>metadata</key>
@@ -118,7 +118,8 @@ def main():
             if os.path.exists(plist):
                 os.remove(plist); changed.append("removed " + appid + ".plist")
         else:
-            new_pl = MANIFEST.format(cf=CF, appid=appid, bid=BID,
+            ipa_url = a.get("ipa_url") or f"{CF}/{appid}.ipa"
+            new_pl = MANIFEST.format(ipa_url=ipa_url, bid=BID,
                                      build=a["build"], title=a["title"])
             if not os.path.exists(plist) or open(plist).read() != new_pl:
                 open(plist, "w").write(new_pl); changed.append(appid + ".plist")
