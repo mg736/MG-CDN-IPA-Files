@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Install Kitten D'Amour Radio</title><style>:root{--bg:#f5f5f7;--card:#fff;--fg:#1d1d1f;--muted:#6e6e73;--accent:#0071e3;--line:#d2d2d7;--dead:#d70015}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--card:#1c1c1e;--fg:#f5f5f7;--muted:#98989d;--line:#38383a;--dead:#ff453a}}
+:root[data-theme="dark"]{--bg:#000;--card:#1c1c1e;--fg:#f5f5f7;--muted:#98989d;--line:#38383a;--dead:#ff453a}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);
+color:var(--fg);margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
+.card{background:var(--card);border-radius:20px;padding:40px 28px;max-width:420px;width:100%;
+text-align:center;box-shadow:0 2px 20px rgba(0,0,0,.08)}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
+.ver{color:var(--muted);font-size:15px;margin:0 0 28px}
+a.btn{display:block;background:var(--accent);color:#fff;padding:17px;border-radius:13px;
+text-decoration:none;font-size:18px;font-weight:600}
+ol{text-align:left;color:var(--muted);font-size:14px;line-height:1.7;margin:28px 0 0;padding-left:20px}
+.note{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;color:var(--muted);font-size:12.5px}
+.exp{color:var(--muted);font-size:13px;margin-top:18px}
+.dead{color:var(--dead);font-weight:600;font-size:19px;margin:6px 0 10px}
+.hide{display:none}</style></head><body>
+<div class="card" id="card" data-expires="2026-09-28T16:00:00Z">
+  <h1>Kitten D'Amour Radio</h1>
+  <p class="ver">Version 1.4 (1.2)</p>
+  <div id="live" class="">
+    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https://mg736.github.io/MG-CDN-IPA-Files/kitten.plist">Install</a>
+    <ol>
+      <li>Open this page in <strong>Safari</strong> (not Chrome).</li>
+      <li>Tap <strong>Install</strong>, then confirm.</li>
+      <li>Go to <strong>Settings &rsaquo; General &rsaquo; VPN &amp; Device Management</strong>.</li>
+      <li>Tap <strong>Appy Pie LLC</strong> &rsaquo; <strong>Trust</strong>.</li>
+    </ol>
+    <p class="exp">This link expires <strong><span id="exp"></span></strong>.</p>
+  </div>
+  <div id="gone" class="hide">
+    <p class="dead">This link has expired</p>
+    <p class="note" style="border:none">The install link is no longer active.
+    Contact the sender for a current one.</p>
+  </div>
+</div>
+<script>
+(function(){
+  var c=document.getElementById('card'),t=Date.parse(c.dataset.expires);
+  var e=document.getElementById('exp');
+  if(e)e.textContent=new Date(t).toLocaleString();
+  function tick(){
+    var dead=Date.now()>=t;
+    document.getElementById('live').classList.toggle('hide',dead);
+    document.getElementById('gone').classList.toggle('hide',!dead);
+  }
+  tick();setInterval(tick,30000);
+})();
+</script>
+</body></html>
