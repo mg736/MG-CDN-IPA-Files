@@ -33,6 +33,13 @@
       "build": "1.2",
       "expires": "2026-09-28T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kitten-1-4-1-2/KittenDAmourRadio-1.4-1.2-resigned.ipa"
+    },
+    "f246be2a2332": {
+      "title": "Tech2Consult",
+      "short": "2.3",
+      "build": "1.0",
+      "expires": "2026-09-29T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-f246be2a2332/f246be2a2332.ipa"
     }
   }
 }
