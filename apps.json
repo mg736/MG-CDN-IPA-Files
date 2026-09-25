@@ -42,6 +42,13 @@
       "build": "1.0",
       "expires": "2026-09-29T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-f246be2a2332/f246be2a2332.ipa"
+    },
+    "bf209816cc4a": {
+      "title": "AIPCA EMRGCY",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-09-30T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bf209816cc4a/bf209816cc4a.ipa"
     }
   }
 }
