@@ -49,6 +49,13 @@
       "build": "834",
       "expires": "2026-09-30T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bf209816cc4a/bf209816cc4a.ipa"
+    },
+    "myesr": {
+      "title": "MyESR",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-10-05T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-myesr-834/nhs.ipa"
     }
   }
 }

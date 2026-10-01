@@ -9,15 +9,15 @@
       <array>
         <dict>
           <key>kind</key><string>software-package</string>
-          <key>url</key><string>https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-boddii-1-2/publish.ipa</string>
+          <key>url</key><string>https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-myesr-834/nhs.ipa</string>
         </dict>
       </array>
       <key>metadata</key>
       <dict>
         <key>bundle-identifier</key><string>com.appypiellc.appypiellc</string>
-        <key>bundle-version</key><string>1.2</string>
+        <key>bundle-version</key><string>834</string>
         <key>kind</key><string>software</string>
-        <key>title</key><string>BODDII</string>
+        <key>title</key><string>MyESR</string>
       </dict>
     </dict>
   </array>
