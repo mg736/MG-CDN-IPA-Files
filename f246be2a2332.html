@@ -1,39 +1,73 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Install Tech2Consult</title><style>:root{--bg:#f5f5f7;--card:#fff;--fg:#1d1d1f;--muted:#6e6e73;--accent:#0071e3;--line:#d2d2d7;--dead:#d70015}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--card:#1c1c1e;--fg:#f5f5f7;--muted:#98989d;--line:#38383a;--dead:#ff453a}}
-:root[data-theme="dark"]{--bg:#000;--card:#1c1c1e;--fg:#f5f5f7;--muted:#98989d;--line:#38383a;--dead:#ff453a}
+<title>Install Tech2Consult</title><style>:root{
+  --brand-blue:#1FC0F1; --brand-green:#2DB92D; --brand-yellow:#F6B32E;
+  --brand-orange:#F5811F; --brand-red:#F04410;
+  --bg:#f2f4f7; --card:#fff; --fg:#14161a; --muted:#6b7280;
+  --line:#e5e7eb; --dead:#d70015; --shadow:0 10px 40px rgba(16,24,40,.10);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b0d10; --card:#16191e; --fg:#f3f4f6; --muted:#9aa1ab;
+  --line:#272b32; --dead:#ff453a; --shadow:0 10px 40px rgba(0,0,0,.5);
+}}
+:root[data-theme="dark"]{
+  --bg:#0b0d10; --card:#16191e; --fg:#f3f4f6; --muted:#9aa1ab;
+  --line:#272b32; --dead:#ff453a; --shadow:0 10px 40px rgba(0,0,0,.5);
+}
 *{box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);
-color:var(--fg);margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
-.card{background:var(--card);border-radius:20px;padding:40px 28px;max-width:420px;width:100%;
-text-align:center;box-shadow:0 2px 20px rgba(0,0,0,.08)}
-h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
-.ver{color:var(--muted);font-size:15px;margin:0 0 28px}
-a.btn{display:block;background:var(--accent);color:#fff;padding:17px;border-radius:13px;
-text-decoration:none;font-size:18px;font-weight:600}
-ol{text-align:left;color:var(--muted);font-size:14px;line-height:1.7;margin:28px 0 0;padding-left:20px}
-.note{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;color:var(--muted);font-size:12.5px}
-.exp{color:var(--muted);font-size:13px;margin-top:18px}
-.dead{color:var(--dead);font-weight:600;font-size:19px;margin:6px 0 10px}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+background:var(--bg);color:var(--fg);margin:0;min-height:100vh;
+display:flex;align-items:center;justify-content:center;padding:16px;
+-webkit-font-smoothing:antialiased}
+.card{background:var(--card);border-radius:22px;max-width:420px;width:100%;
+box-shadow:var(--shadow);overflow:hidden;text-align:center}
+.bar{height:5px;background:linear-gradient(90deg,
+var(--brand-blue) 0%,var(--brand-green) 33%,var(--brand-yellow) 66%,var(--brand-red) 100%)}
+.inner{padding:30px 26px 32px}
+.logowrap{display:inline-block;margin-bottom:24px;line-height:0}
+.logo{height:30px;width:auto}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logowrap{
+background:#fff;padding:10px 16px;border-radius:12px}}
+:root[data-theme="dark"] .logowrap{background:#fff;padding:10px 16px;border-radius:12px}
+h1{font-size:25px;line-height:1.2;margin:0 0 5px;letter-spacing:-.021em;font-weight:700}
+.ver{color:var(--muted);font-size:14.5px;margin:0 0 26px;font-variant-numeric:tabular-nums}
+a.btn{display:block;background:linear-gradient(135deg,var(--brand-blue),#0aa3d4);
+color:#fff;padding:16px;border-radius:14px;text-decoration:none;font-size:17.5px;
+font-weight:650;letter-spacing:-.01em;box-shadow:0 6px 18px rgba(31,192,241,.34);
+transition:transform .15s ease,box-shadow .15s ease}
+a.btn:active{transform:translateY(1px);box-shadow:0 3px 10px rgba(31,192,241,.3)}
+ol{text-align:left;color:var(--muted);font-size:13.5px;line-height:1.65;
+margin:26px 0 0;padding-left:20px}
+ol li{margin-bottom:5px}
+ol strong{color:var(--fg);font-weight:600}
+.note{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;
+color:var(--muted);font-size:12.5px;line-height:1.55}
+.exp{color:var(--muted);font-size:12.5px;margin:18px 0 0}
+.badge{display:inline-flex;align-items:center;gap:7px;background:rgba(240,68,16,.1);
+color:var(--dead);font-weight:650;font-size:15px;padding:10px 18px;border-radius:11px;margin:4px 0 12px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--dead)}
 .hide{display:none}</style></head><body>
 <div class="card" id="card" data-expires="2026-09-29T16:00:00Z">
-  <h1>Tech2Consult</h1>
-  <p class="ver">Version 2.3 (1.0)</p>
-  <div id="live" class="hide">
-    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https://mg736.github.io/MG-CDN-IPA-Files/f246be2a2332.plist">Install</a>
-    <ol>
-      <li>Open this page in <strong>Safari</strong> (not Chrome).</li>
-      <li>Tap <strong>Install</strong>, then confirm.</li>
-      <li>Go to <strong>Settings &rsaquo; General &rsaquo; VPN &amp; Device Management</strong>.</li>
-      <li>Tap <strong>Appy Pie LLC</strong> &rsaquo; <strong>Trust</strong>.</li>
-    </ol>
-    <p class="exp">This link expires <strong><span id="exp"></span></strong>.</p>
-  </div>
-  <div id="gone" class="">
-    <p class="dead">This link has expired</p>
-    <p class="note" style="border:none">The install link is no longer active.
-    Contact the sender for a current one.</p>
+  <div class="bar"></div>
+  <div class="inner">
+    <span class="logowrap"><img class="logo" src="appypie-logo.png" alt="Appy Pie"></span>
+    <h1>Tech2Consult</h1>
+    <p class="ver">Version 2.3 (1.0)</p>
+    <div id="live" class="hide">
+      <a class="btn" href="itms-services://?action=download-manifest&amp;url=https://mg736.github.io/MG-CDN-IPA-Files/f246be2a2332.plist">Install</a>
+      <ol>
+        <li>Open this page in <strong>Safari</strong> (not Chrome).</li>
+        <li>Tap <strong>Install</strong>, then confirm.</li>
+        <li>Go to <strong>Settings &rsaquo; General &rsaquo; VPN &amp; Device Management</strong>.</li>
+        <li>Tap <strong>Appy Pie LLC</strong> &rsaquo; <strong>Trust</strong>.</li>
+      </ol>
+      <p class="exp">This link expires <strong><span id="exp"></span></strong>.</p>
+    </div>
+    <div id="gone" class="">
+      <span class="badge"><span class="dot"></span>Link expired</span>
+      <p class="note" style="border:none;margin-top:0;padding-top:0">
+      This install link is no longer active. Contact the sender for a current one.</p>
+    </div>
   </div>
 </div>
 <script>
