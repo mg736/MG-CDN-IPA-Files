@@ -56,6 +56,13 @@
       "build": "834",
       "expires": "2026-10-05T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-myesr-834/nhs.ipa"
+    },
+    "bccoastal": {
+      "title": "BC Coastal Soccer League",
+      "short": "1.5",
+      "build": "1.2",
+      "expires": "2026-10-10T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bccoastal-1-5-1-2/bccoastalsoccerleague.ipa"
     }
   }
 }
