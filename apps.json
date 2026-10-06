@@ -30,11 +30,11 @@
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-boddii-1-2/publish.ipa"
     },
     "kitten": {
-      "title": "Kitten D'Amour Radio",
-      "short": "1.4",
-      "build": "1.2",
-      "expires": "2026-09-28T16:00:00Z",
-      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kitten-1-4-1-2/KittenDAmourRadio-1.4-1.2-resigned.ipa"
+      "title": "Kitten DAmour Radio",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-10-10T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kitten-4-1-834/kitten.ipa"
     },
     "f246be2a2332": {
       "title": "Tech2Consult",
