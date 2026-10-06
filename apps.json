@@ -63,6 +63,13 @@
       "build": "1.2",
       "expires": "2026-10-10T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bccoastal-1-5-1-2/bccoastalsoccerleague.ipa"
+    },
+    "harrison": {
+      "title": "Harrison Capital Management",
+      "short": "1.0.0",
+      "build": "1",
+      "expires": "2026-10-11T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-harrison-v11/HarrisonCapitalManagement-v11-resigned.ipa"
     }
   }
 }
