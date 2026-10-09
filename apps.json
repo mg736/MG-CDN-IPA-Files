@@ -72,11 +72,11 @@
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-harrison-v11/HarrisonCapitalManagement-v11-resigned.ipa"
     },
     "bodii": {
-      "title": "BODII",
+      "title": "BODDII",
       "short": "1.0.0",
       "build": "1",
-      "expires": "2026-10-11T16:00:00Z",
-      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bodii-v1-0-0/BODII-v1.0.0-resigned.ipa"
+      "expires": "2026-10-13T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-boddii-v1-0-3/BODDII-v1.0.3-resigned.ipa"
     }
   }
 }
