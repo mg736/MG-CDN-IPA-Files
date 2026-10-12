@@ -84,6 +84,13 @@
       "build": "1.1",
       "expires": "2026-10-13T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-wiska-1-5-1-1/publish.ipa"
+    },
+    "srishivadurga": {
+      "title": "SRI SHIVA DURGA TEMPLE",
+      "short": "1.5",
+      "build": "1.1",
+      "expires": "2026-10-16T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-srishivadurga-1-5-1-1/srishivadurgatemple_appstore.ipa"
     }
   }
 }
