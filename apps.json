@@ -91,6 +91,13 @@
       "build": "1.1",
       "expires": "2026-10-16T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-srishivadurga-1-5-1-1/srishivadurgatemple_appstore.ipa"
+    },
+    "athletics": {
+      "title": "Athletics Exchange Zone",
+      "short": "1.5",
+      "build": "1.1",
+      "expires": "2026-10-18T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-athletics-1-5-1-1/athleticsexchangezone_appstore.ipa"
     }
   }
 }
