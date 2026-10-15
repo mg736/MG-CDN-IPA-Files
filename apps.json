@@ -94,8 +94,8 @@
     },
     "athletics": {
       "title": "Athletics Exchange Zone",
-      "short": "1.5",
-      "build": "1.1",
+      "short": "1.4",
+      "build": "1.0",
       "expires": "2026-10-18T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-athletics-1-5-1-1/athleticsexchangezone_appstore.ipa"
     }
