@@ -130,6 +130,10 @@ MANIFEST = """<?xml version="1.0" encoding="UTF-8"?>
 """
 
 def main():
+    logo = os.path.join(ROOT, "appypie-logo.png")
+    if not os.path.exists(logo):
+        sys.exit("ERROR: appypie-logo.png is missing — every page references it. "
+                 "Restore it before building (git checkout appypie-logo.png).")
     cfg = json.load(open(os.path.join(ROOT, "apps.json")))
     now = datetime.now(timezone.utc)
     rows, changed = [], []
