@@ -91,7 +91,7 @@ PAGE = """<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 (function(){{
   var c=document.getElementById('card'),t=Date.parse(c.dataset.expires);
   var e=document.getElementById('exp');
-  if(e)e.textContent=new Date(t).toLocaleString();
+  if(e)e.textContent=new Date(t).toLocaleString(undefined,{{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'}});
   function tick(){{
     var dead=Date.now()>=t;
     document.getElementById('live').classList.toggle('hide',dead);
