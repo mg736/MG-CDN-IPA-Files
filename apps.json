@@ -112,6 +112,13 @@
       "build": "1.5",
       "expires": "2026-11-01T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-datacentury-1-0-1-5/publish-resigned.ipa"
+    },
+    "amigos": {
+      "title": "Amigos Outdoors",
+      "short": "1.1",
+      "build": "1.0",
+      "expires": "2026-11-02T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-amigos-1-1-1-0/AmigosOutdoors_v1.1_build1.0-enterprise.ipa"
     }
   }
 }
