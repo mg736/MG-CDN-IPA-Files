@@ -59,10 +59,10 @@
     },
     "bccoastal": {
       "title": "BC Coastal Soccer League",
-      "short": "1.5",
-      "build": "1.2",
-      "expires": "2026-10-10T16:00:00Z",
-      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bccoastal-1-5-1-2/bccoastalsoccerleague.ipa"
+      "short": "1.0",
+      "build": "1.5",
+      "expires": "2026-11-06T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-bccoastal-1-0-1-5/BCCoastalSoccerLeague_v1.0_build1.5-enterprise.ipa"
     },
     "harrison": {
       "title": "Harrison Capital Management",
