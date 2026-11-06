@@ -133,6 +133,13 @@
       "build": "834",
       "expires": "2026-11-09T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-ayrride-4-1-834/CreatedApp_20261105_170824.ipa"
+    },
+    "uvolume": {
+      "title": "uVolume",
+      "short": "2.0",
+      "build": "722",
+      "expires": "2026-11-10T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-uvolume-2-0-722/CreatedApp_20261106_190804.ipa"
     }
   }
 }
