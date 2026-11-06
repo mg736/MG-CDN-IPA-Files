@@ -140,6 +140,13 @@
       "build": "722",
       "expires": "2026-11-10T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-uvolume-2-0-722/CreatedApp_20261106_190804.ipa"
+    },
+    "organicspace": {
+      "title": "The Organic Space",
+      "short": "4.1",
+      "build": "834",
+      "expires": "2026-11-10T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-organicspace-4-1-834/CreatedApp_20261106_204643.ipa"
     }
   }
 }
