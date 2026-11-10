@@ -147,6 +147,13 @@
       "build": "834",
       "expires": "2026-11-10T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-organicspace-4-1-834/CreatedApp_20261106_204643.ipa"
+    },
+    "workagentsradio": {
+      "title": "Work Agents Radio",
+      "short": "1.1",
+      "build": "1.0",
+      "expires": "2026-11-15T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-workagentsradio-1-1-1-0/WorkAgentsRadio_v1.1_build1.0-enterprise.ipa"
     }
   }
 }
