@@ -143,10 +143,10 @@
     },
     "organicspace": {
       "title": "The Organic Space",
-      "short": "4.1",
-      "build": "834",
-      "expires": "2026-11-10T16:00:00Z",
-      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-organicspace-4-1-834/CreatedApp_20261106_204643.ipa"
+      "short": "4.0",
+      "build": "816",
+      "expires": "2026-11-16T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-organicspace-4-0-816/TheOrganicSpace.ipa"
     },
     "workagentsradio": {
       "title": "Work Agents Radio",
