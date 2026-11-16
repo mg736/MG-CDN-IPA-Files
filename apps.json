@@ -154,6 +154,13 @@
       "build": "1.0",
       "expires": "2026-11-15T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-workagentsradio-1-1-1-0/WorkAgentsRadio_v1.1_build1.0-enterprise.ipa"
+    },
+    "ecpubs": {
+      "title": "ECPubs",
+      "short": "1.2",
+      "build": "1.0",
+      "expires": "2026-11-20T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-ecpubs-1-2-1-0/ECPubs.ipa"
     }
   }
 }
