@@ -161,6 +161,13 @@
       "build": "1.0",
       "expires": "2026-11-20T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-ecpubs-1-2-1-0/ECPubs.ipa"
+    },
+    "endocore": {
+      "title": "Endo Core",
+      "short": "4.1",
+      "build": "821",
+      "expires": "2026-11-21T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-endocore-4-1-821/EndoCore.ipa"
     }
   }
 }
