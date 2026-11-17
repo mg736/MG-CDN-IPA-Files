@@ -167,7 +167,14 @@
       "short": "4.1",
       "build": "821",
       "expires": "2026-11-21T16:00:00Z",
-      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-endocore-4-1-821/EndoCore.ipa"
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-endocore-4-1-821-r2/EndoCore.ipa"
+    },
+    "kneo": {
+      "title": "KNEO",
+      "short": "7.4",
+      "build": "1.0",
+      "expires": "2026-11-21T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kneo-7-4-1-0/KNEO.ipa"
     }
   }
 }
