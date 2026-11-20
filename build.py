@@ -6,6 +6,7 @@ itms-services:// URL fails too) and its page renders an expired notice.
 Run locally after editing apps.json, or hourly via .github/workflows/expire.yml
 """
 import json, os, sys
+from html import escape as esc
 from datetime import datetime, timezone
 
 CF = "https://d2wuvg8krwnvon.cloudfront.net/customapps"
@@ -144,7 +145,7 @@ def main():
         html = os.path.join(ROOT, appid + ".html")
         plist = os.path.join(ROOT, appid + ".plist")
 
-        new_html = PAGE.format(css=CSS, title=a["title"], short=a["short"],
+        new_html = PAGE.format(css=CSS, title=esc(a["title"]), short=a["short"],
                                build=a["build"], appid=appid, base=BASE,
                                expires=a["expires"],
                                live_cls="hide" if dead else "",
@@ -158,7 +159,7 @@ def main():
         else:
             ipa_url = a.get("ipa_url") or f"{CF}/{appid}.ipa"
             new_pl = MANIFEST.format(ipa_url=ipa_url, bid=BID,
-                                     build=a["build"], title=a["title"])
+                                     build=a["build"], title=esc(a["title"]))
             if not os.path.exists(plist) or open(plist).read() != new_pl:
                 open(plist, "w").write(new_pl); changed.append(appid + ".plist")
 
@@ -192,7 +193,7 @@ padding:4px 9px;border-radius:7px;white-space:nowrap}
         idx.append(
             '    <a class="app%s" href="%s.html">\n'
             '      <span><span class="n">%s</span><br><span class="v">%s (%s)</span></span>\n'
-            '      %s\n    </a>' % (dim, appid, a["title"], a["short"], a["build"], state))
+            '      %s\n    </a>' % (dim, appid, esc(a["title"]), a["short"], a["build"], state))
     idx.append("""    <p class="note">Open in <strong>Safari</strong> on an iPhone or iPad. After installing,
     trust the developer under Settings &rsaquo; General &rsaquo; VPN &amp; Device Management.</p>
   </div>
