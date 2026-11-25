@@ -203,6 +203,13 @@
       "build": "1.0",
       "expires": "2026-11-27T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-cdlmissions-1-3-1-0/CDLMissions.ipa"
+    },
+    "vabbd": {
+      "title": "VA Black Business Directory",
+      "short": "6.7",
+      "build": "1.0",
+      "expires": "2026-11-29T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-vabbd-6-7-1-0/VABlackBusinessDirectory.ipa"
     }
   }
 }

@@ -9,7 +9,7 @@
       <array>
         <dict>
           <key>kind</key><string>software-package</string>
-          <key>url</key><string>https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kulp-1-5-1-0/KULP.ipa</string>
+          <key>url</key><string>https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-vabbd-6-7-1-0/VABlackBusinessDirectory.ipa</string>
         </dict>
       </array>
       <key>metadata</key>
@@ -17,7 +17,7 @@
         <key>bundle-identifier</key><string>com.appypiellc.appypiellc</string>
         <key>bundle-version</key><string>1.0</string>
         <key>kind</key><string>software</string>
-        <key>title</key><string>KULP | Live &amp; Local</string>
+        <key>title</key><string>VA Black Business Directory</string>
       </dict>
     </dict>
   </array>
