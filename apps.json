@@ -210,6 +210,13 @@
       "build": "1.0",
       "expires": "2026-11-29T16:00:00Z",
       "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-vabbd-6-7-1-0/VABlackBusinessDirectory.ipa"
+    },
+    "kahanicut": {
+      "title": "KahaniCut (Staging)",
+      "short": "1.0.0",
+      "build": "1",
+      "expires": "2026-12-01T16:00:00Z",
+      "ipa_url": "https://github.com/mg736/MG-CDN-IPA-Files/releases/download/ipa-kahanicut-1-0-0-1/KahaniCut.ipa"
     }
   }
 }
